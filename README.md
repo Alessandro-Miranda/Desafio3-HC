@@ -29,7 +29,7 @@ https://pt.wikipedia.org/wiki/Markdown
 ![Shopping cart](https://github.com/Alessandro-Miranda/Desafio3-HC/blob/main/screenshots/cart.PNG)
 
 #### Layout Mobile
-[imagem mobile](https://github.com/Alessandro-Miranda/Desafio3-HC/blob/main/screenshots/mobile.PNG)
+![layout mobile](https://github.com/Alessandro-Miranda/Desafio3-HC/blob/main/screenshots/mobile.PNG)
 
 ## Requisitos
 
