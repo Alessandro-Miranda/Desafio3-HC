@@ -1,0 +1,17 @@
+{
+    "store.home": {
+        "parent": {
+            // Sobrescreve o header e o footer para personalizar
+            "header": "header",
+            "footer": "footer"
+        },
+        "blocks": [
+            "rich-text#home"
+        ]
+    },
+    "rich-text#home": {
+        "props": {
+            "text": "Algum texto avulso de teste"
+        }
+    }
+}
