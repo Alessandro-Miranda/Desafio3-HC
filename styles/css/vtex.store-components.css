@@ -18,6 +18,7 @@
     color: white;
     padding-left: 0;
     transition: border-color .2s ease-in;
+    letter-spacing: 1.5px;
 }
 
 /*Efeito de troca da cor da borda e fonte do placeholder*/
@@ -50,3 +51,9 @@
     color: white;
 }
 /*Fim do estilo do ícone de busca*/
+
+/*Aplica o background no corpo da página*/
+:global(.vtex-store__template)
+{
+    background-color: #303030;
+}
