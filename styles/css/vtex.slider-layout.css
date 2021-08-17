@@ -1,0 +1,25 @@
+.sliderLayoutContainer
+{
+    width: 100vw;
+    margin: 1rem auto 0 auto;
+}
+
+@media screen and (min-width: 700px)
+{
+    .sliderLayoutContainer
+    {
+        width: 70vw;
+    }
+}
+.caretIcon
+{
+    color: #fff;
+}
+.paginationDot
+{
+    background-color: #fff;
+}
+.paginationDot--isActive
+{
+    background-color: #59ff00;
+}
