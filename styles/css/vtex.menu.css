@@ -1,6 +1,11 @@
+.menuContainerNav
+{
+    margin: 0 auto;
+}
 .styledLinkContent
 {
     text-transform: uppercase;
     color: white;
     letter-spacing: 1.5px;
+    font-size: .875rem;
 }
