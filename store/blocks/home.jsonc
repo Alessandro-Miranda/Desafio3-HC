@@ -6,12 +6,6 @@
             "footer": "footer"
         },
         "blocks": [
-            "rich-text#home"
         ]
-    },
-    "rich-text#home": {
-        "props": {
-            "text": "Algum texto avulso de teste"
-        }
     }
 }
