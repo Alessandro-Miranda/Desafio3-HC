@@ -6,6 +6,7 @@
 .cartIcon
 {
     width: 3rem;
+    background-color: white;
 }
 .openIconContainer :global(.vtex-button):hover
 {
