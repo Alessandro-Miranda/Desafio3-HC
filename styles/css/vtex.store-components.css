@@ -57,3 +57,17 @@
 {
     background-color: #303030;
 }
+
+/*Estilização da imagem do slider*/
+.imageElement--bannerImage, .imageElement--bannerImage--adjustHeight
+{
+    border-radius: 10px;
+}
+.imageElementLink
+{
+    height: 100%;
+}
+.imageElement--bannerImage--adjustHeight
+{
+    height: inherit;
+}
