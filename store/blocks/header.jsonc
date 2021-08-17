@@ -1,93 +1,88 @@
 {
     "header": {
         "blocks": [
-            "header-layout.desktop",
-            "header-layout.mobile"
-        ]
-    },
-    "header.full": {
-        "blocks": [
-            "header-layout.desktop",
-            "header-layout.mobile"
+            "header-layout.desktop"
         ]
     },
     "header-layout.desktop": {
         "children": [
-            "sticky-layout#desktop"
+            "header-row#1-desktop"
         ]
     },
-    "sticky-layout#desktop": {
-        "props": {
-            "blockClass": "sticky-header"
-        },
+    "header-row#1-desktop": {
         "children": [
-            "flex-layout.row#desktop"
-        ]
-    },
-    "flex-layout.row#desktop": {
-        "props": {
-            "horizontalAlign": "center",
-            "verticalAlign": "center",
-            "preventHorizontalStretch": true,
-            "preventVerticalStretch": true,
-            "fullWidth": true
-        },
-        "children": [
-            "flex-layout.col#logo-desktop",
-            "flex-layout.col#spacer",
-            "search-bar",
-            "locale-switcher",
-            "login",
-            "minicart.v2"
-        ]
-    },
-    "flex-layout.col#spacer": {
-        "props": {
-            "width": "grow"
-        }
-    },
-    "flex-layout.col#logo-desktop": {
-        "props": {
-            "verticalAlign": "middle"
-        },
-        "children": [
-            "logo"
-        ]
-    },
-    "logo": {
-        "props": {
-            "title": "Logo",
-            "href": "/",
-            "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-            "width": "80"
-        }
-    },
-    "header-layout.mobile": {
-        "children": [
-            "sticky-layout#mobile"
-        ]
-    },
-    "sticky-layout#mobile": {
-        "children": [
-            "flex-layout.row#mobile"
-        ]
-    },
-    "flex-layout.row#mobile": {
-        "children": [
-            "drawer",
-            "logo",
-            "flex-layout.col#spacer",
-            "login",
-            "minicart.v2"
+            "flex-layout.row#header"
         ],
         "props": {
-            "blockClass": "main-header-mobile",
-            "preventHorizontalStretch": true,
-            "preserveLayoutOnMobile": true,
             "fullWidth": true
         }
     },
-    "drawer": {
-        "children": []
+    // Define os itens da linha 1 do cabeçalho
+    "flex-layout.row#header": {
+        "children": [
+            "flex-layout.col#logo",
+            "flex-layout.col#searchBar",
+            "flex-layout.col#cart"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "horizontalAlign": "center",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#logo": {
+        "children": [
+            "logo#header"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "horizontalAlign": "center"
+        }
+    },
+    "logo#header": {
+        "props": {
+            "width": 250,
+            "mobileWidth": 80,
+            "href": "/",
+            "url": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/upmedal.png"
+        }
+    },
+    "flex-layout.col#searchBar": {
+        "children": [
+            "search-bar#header"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "horizontalAlign": "center",
+            "blockClass": "searchBar"
+        }
+    },
+    "search-bar#header": {
+        "props": {
+            "emptyPlaceholder": "Nenhum item encontrado",
+            "minSearchTermLength": 3,
+            "displayMode": "search-and-clear-buttons",
+            "inputType": "search",
+            "openAutocompleteOnFocus": true
+        }
+    },
+    "flex-layout.col#cart": {
+        "children": ["minicart.v2"],
+        "props": {
+            "preventVerticalStretch": true,
+            "horizontalAlign": "center"
+        }
+    },
+    "minicart.v2": {
+        "props": {
+            "quantityDisplay": "not-empty",
+            "itemCountMode": "distinct",
+            "MinicartIcon": "icon-cart#minicart-icon"
+        }
+    },
+    "icon-cart#minicart-icon": {
+        "props": {
+            "size": 25
+        }
     }
 }
