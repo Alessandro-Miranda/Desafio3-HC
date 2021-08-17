@@ -1,7 +1,7 @@
 .headerRowContainer
 {
     background-color: #212121;
-    padding: 2rem 6rem;
+    padding: 2rem 6rem .375rem 6rem;
 }
 .headerRowContainer--menuRow
 {
