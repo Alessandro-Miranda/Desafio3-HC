@@ -1,0 +1,52 @@
+.searchBarContainer
+{
+    width: 35rem;
+}
+/*Estilização do formulário*/
+.autoCompleteOuterContainer
+{
+    border: none;
+}
+
+/*Estilização do input do campo de busca do header*/
+:global(.vtex-styleguide-9-x-input)
+{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 0;
+    transition: border-color .2s ease-in;
+}
+
+/*Efeito de troca da cor da borda e fonte do placeholder*/
+:global(.vtex-styleguide-9-x-input):focus
+{
+    border-color: #59ff00;
+}
+:global(.vtex-styleguide-9-x-input)::placeholder
+{
+    transition: color .2s ease-in;
+    color: white;
+}
+:global(.vtex-styleguide-9-x-input):focus::placeholder
+{
+    color: #59ff00;
+}
+
+/*Estilo do icone de busca da searchbar*/
+:global(.vtex-input__suffix)
+{
+    background-color: transparent;
+    display: none;
+}
+:global(.vtex-input-prefix__group)
+{
+    border: none;
+}
+:global(.vtex__icon-search)
+{
+    color: white;
+}
+/*Fim do estilo do ícone de busca*/
