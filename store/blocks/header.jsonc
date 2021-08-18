@@ -88,7 +88,7 @@
     },
     "header-row#2-desktop": {
         "children": [
-            "menu#header"
+            "tab-layout#header"
         ],
         "props": {
             "fullWidth": true,
