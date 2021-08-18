@@ -1,4 +1,5 @@
-.sliderLayoutContainer
+/*Layout do slider pertencente ao banner principal*/
+.sliderLayoutContainer--banner
 {
     width: 100vw;
     margin: 1rem auto 0 auto;
@@ -6,7 +7,7 @@
 
 @media screen and (min-width: 700px)
 {
-    .sliderLayoutContainer
+    .sliderLayoutContainer--banner
     {
         width: 70vw;
     }
@@ -23,3 +24,12 @@
 {
     background-color: #59ff00;
 }
+/*Fim do layout do slider banner principal*/
+
+/*Slider das abas de categoria do header*/
+.sliderLayoutContainer--tabs
+{
+    padding: 0 2rem;
+    width: 100%;
+}
+/*Fim do slider das abas de categoria do header*/
