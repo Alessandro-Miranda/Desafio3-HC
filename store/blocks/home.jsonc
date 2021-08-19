@@ -6,7 +6,7 @@
             "footer": "footer"
         },
         "blocks": [
-            "slider-layout#banner"
+            "tab-layout#categories"
         ]
     }
 }
