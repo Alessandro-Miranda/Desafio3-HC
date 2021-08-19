@@ -12,6 +12,7 @@
     border: 1px solid transparent;
     border-radius: 0;
     transition: border-bottom .3s ease, color .3s ease;
+    outline: none;
 }
 .listItemActive :global(.vtex-button)
 {
