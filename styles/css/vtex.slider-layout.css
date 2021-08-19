@@ -34,3 +34,11 @@
     background-color: #212121;
 }
 /*Fim do slider das abas de categoria do header*/
+
+/*Estilização do slider do conteúdo das abas de categoria*/
+.sliderLayoutContainer--categoriesContent
+{
+    width: 70vw;
+    margin: 2rem auto;
+}
+/*Fim do estilo do slider do conteúdo das abas de categoria*/
