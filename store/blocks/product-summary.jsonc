@@ -1,0 +1,45 @@
+{
+    "list-context.product-list#corinthians": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#teste"
+        ],
+        "props": {
+            "category": "20",
+            "hideUnavailableItems": true,
+            "maxItems": 8,
+            "blockClass": "products"
+        }
+    },
+    "slider-layout#teste": {
+    },
+    // "slider-layout#teste": {
+    //     "props": {
+    //         "itemsPerPage": {
+    //             "desktop": 1,
+    //             "phone": 1,
+    //             "tablet": 1
+    //         },
+    //         "infinite": true,
+    //         "showNavigationArrows": "desktopOnly",
+    //         "showPaginationDots": "desktopOnly",
+    //         "autoplay": {
+    //             "timeout": 5000,
+    //             "stopOnHover": true
+    //         },
+    //         "blockClass": "banner"
+    //     }
+    // },
+    "product-summary.shelf#corinthians": {
+        "children": [
+            "product-summary-name",
+            "product-summary-description",
+            "product-summary-image",
+            "product-summary-price",
+            "product-summary-sku-selector",
+            "product-summary-buy-button"
+        ]
+    }
+}
