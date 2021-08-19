@@ -52,11 +52,6 @@
 }
 /*Fim do estilo do ícone de busca*/
 
-/*Aplica o background no corpo da página*/
-:global(.vtex-store__template)
-{
-    background-color: #303030;
-}
 
 /*Estilização da imagem do slider*/
 .imageElement--bannerImage, .imageElement--bannerImage--adjustHeight
@@ -71,3 +66,15 @@
 {
     height: inherit;
 }
+
+/*Estilização da página de produtos*/
+.vtex-button__label .flex
+{
+    background-color: #59ff00;
+    border: none;
+}
+.shippingContainer
+{
+    margin-bottom: 1.375rem;
+}
+/*Fim da Estilização da página de produtos*/
