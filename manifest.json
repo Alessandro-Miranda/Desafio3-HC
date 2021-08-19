@@ -1,6 +1,6 @@
 {
   "vendor": "hiringcoders2021",
-  "name": "desafiovtexioaws",
+  "name": "minimumtheme",
   "version": "0.0.0",
   "builders": {
     "styles": "2.x",
