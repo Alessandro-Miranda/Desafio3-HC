@@ -29,7 +29,8 @@
 /*Slider das abas de categoria do header*/
 .sliderLayoutContainer--tabs
 {
-    padding: 0 2rem;
+    padding: 0 2rem 2rem 2rem;
     width: 100%;
+    background-color: #212121;
 }
 /*Fim do slider das abas de categoria do header*/
