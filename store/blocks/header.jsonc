@@ -6,8 +6,7 @@
     },
     "header-layout.desktop": {
         "children": [
-            "header-row#1-desktop", // linha com a barra de busca, logo e minicart
-            "header-row#2-desktop" // linha do header com o menu
+            "header-row#1-desktop" // linha com a barra de busca, logo e minicart
         ]
     },
     "header-row#1-desktop": {
@@ -84,15 +83,6 @@
     "icon-cart#minicart-icon": {
         "props": {
             "size": 25
-        }
-    },
-    "header-row#2-desktop": {
-        "children": [
-            "tab-layout#header"
-        ],
-        "props": {
-            "fullWidth": true,
-            "blockClass": "menuRow"
         }
     }
 }
