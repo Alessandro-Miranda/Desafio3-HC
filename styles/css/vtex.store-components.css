@@ -87,3 +87,10 @@
     color: white;
 }
 /*Fim da Estilização da página de produtos*/
+
+:global(.vtex-store__template)
+{
+    max-height: 100vh;
+    overflow-y: scroll;
+    position: relative;
+}
