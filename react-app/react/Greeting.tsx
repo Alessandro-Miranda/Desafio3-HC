@@ -1,11 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-type Props = {
-  name: string
+function Greeting()
+{
+    return (
+        <div>Hello, world porra</div>
+    );
 }
 
-function Greeting({ name }: Props) {
-  return <div>Hey, {name}</div>
-}
-
-export default Greeting
+export default Greeting;
