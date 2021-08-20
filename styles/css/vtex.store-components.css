@@ -2,7 +2,7 @@
 {
     width: 35rem;
 }
-/*Estilização do formulário*/
+/*Estilização do formulário de busca*/
 .autoCompleteOuterContainer
 {
     border: none;
@@ -52,7 +52,6 @@
 }
 /*Fim do estilo do ícone de busca*/
 
-
 /*Estilização da imagem do slider*/
 .imageElement--bannerImage, .imageElement--bannerImage--adjustHeight
 {
@@ -76,5 +75,15 @@
 .shippingContainer
 {
     margin-bottom: 1.375rem;
+}
+.productDescriptionContainer
+{
+    margin: 0 auto 3rem auto;
+    max-width: 70vw;
+}
+.productDescriptionTitle
+{
+    margin-top: 2rem;
+    color: white;
 }
 /*Fim da Estilização da página de produtos*/
