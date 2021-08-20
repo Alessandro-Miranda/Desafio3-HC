@@ -1,0 +1,92 @@
+{
+    "header": {
+        "blocks": [
+            "header-layout.desktop"
+        ]
+    },
+    "header-layout.desktop": {
+        "children": [
+            "header-row#1-desktop" // linha com a barra de busca, logo e minicart
+        ]
+    },
+    "header-row#1-desktop": {
+        "children": [
+            "flex-layout.row#header"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    // Define os itens da linha 1 do cabeçalho
+    "flex-layout.row#header": {
+        "children": [
+            "flex-layout.col#logo",
+            "flex-layout.col#searchBar",
+            "flex-layout.col#cart"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "horizontalAlign": "center",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#logo": {
+        "children": [
+            "logo#header"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "horizontalAlign": "center"
+        }
+    },
+    "logo#header": {
+        "props": {
+            "width": 250,
+            "mobileWidth": 80,
+            "href": "/",
+            "url": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/upmedal.png"
+        }
+    },
+    "flex-layout.col#searchBar": {
+        "children": [
+            "search-bar#header"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "horizontalAlign": "center",
+            "blockClass": "searchBar"
+        }
+    },
+    "search-bar#header": {
+        "props": {
+            "emptyPlaceholder": "Nenhum item encontrado",
+            "minSearchTermLength": 3,
+            "displayMode": "search-and-clear-buttons",
+            "inputType": "search",
+            "openAutocompleteOnFocus": true
+        }
+    },
+    "flex-layout.col#cart": {
+        "children": ["minicart.v2"],
+        "props": {
+            "preventVerticalStretch": true,
+            "horizontalAlign": "center"
+        }
+    },
+    "minicart.v2": {
+        "children": ["minicart-product-list"],
+        "props": {
+            "quantityDisplay": "not-empty",
+            "itemCountMode": "distinct",
+            "MinicartIcon": "icon-cart#minicart-icon"
+        }
+    },
+    "icon-cart#minicart-icon": {
+        "props": {
+            "size": 25
+        }
+    },
+    "minicart-product-list": {
+        "blocks": ["product-list"]
+    }
+}

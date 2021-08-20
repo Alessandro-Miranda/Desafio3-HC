@@ -1,0 +1,12 @@
+{
+    "store.home": {
+        "parent": {
+            // Sobrescreve o header e o footer para personalizar
+            "header": "header",
+            "footer": "footer"
+        },
+        "blocks": [
+            "tab-layout#categories"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+.column
+{
+    flex-direction: column;
+}
+.buyButton, .buyButton :global(.vtex-button)
+{
+    background-color: #59ff00;
+    border: none;
+    border-radius: 5px;
+    padding: .375rem 0;
+    transition: background-color .2s ease-in;
+}
+.buyButton :global(.vtex-button)
+{
+    background-color: transparent;
+}
+.buyButton:hover
+{
+    background-color: #59ff0075;
+}
+.sellingPrice, .brandName
+{
+    color: white;
+}
+.brandName
+{
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}

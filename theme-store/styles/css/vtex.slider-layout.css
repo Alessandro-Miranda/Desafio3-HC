@@ -1,0 +1,44 @@
+/*Layout do slider pertencente ao banner principal*/
+.sliderLayoutContainer--banner
+{
+    width: 100vw;
+    margin: 1rem auto 0 auto;
+}
+
+@media screen and (min-width: 700px)
+{
+    .sliderLayoutContainer--banner
+    {
+        width: 70vw;
+    }
+}
+.caretIcon
+{
+    color: #fff;
+}
+.paginationDot
+{
+    background-color: #fff;
+}
+.paginationDot--isActive
+{
+    background-color: #59ff00;
+}
+/*Fim do layout do slider banner principal*/
+
+/*Slider das abas de categoria do header*/
+.sliderLayoutContainer--tabs
+{
+    padding: 0 2rem 2rem 2rem;
+    width: 100%;
+    background-color: #212121;
+}
+/*Fim do slider das abas de categoria do header*/
+
+/*Estilização do slider do conteúdo das abas de categoria*/
+.sliderLayoutContainer--categoriesContent
+{
+    width: 70vw;
+    margin: 2rem auto;
+}
+/*Fim do estilo do slider do conteúdo das abas de categoria*/

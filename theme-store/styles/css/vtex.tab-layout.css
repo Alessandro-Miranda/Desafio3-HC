@@ -1,0 +1,26 @@
+.container
+{
+    width: 100%;
+    margin: 0 auto;
+}
+.listItem :global(.vtex-button)
+{
+    letter-spacing: 1.5px;
+    color: #fff;
+    font-size: 1rem;
+    background: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition: border-bottom .3s ease, color .3s ease;
+    outline: none;
+}
+.listItemActive :global(.vtex-button)
+{
+    border-bottom: 1px solid #59ff00;
+    color: #59ff00;
+}
+.listItem :global(.vtex-button):hover
+{
+    border-bottom: 1px solid #59ff00;
+    color: #59ff00;
+}
