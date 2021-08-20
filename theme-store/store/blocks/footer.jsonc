@@ -7,7 +7,8 @@
     },
     "footer-layout.desktop": {
         "children": [
-            "login#footer"
+            "login#footer",
+            "hello-world"
         ]
     },
     "footer-layout.mobile": {
