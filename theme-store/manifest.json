@@ -12,7 +12,6 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
-    "hiringcoders2021.customfooter": "0.x",
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
     "vtex.product-summary": "2.x",
@@ -49,7 +48,8 @@
     "vtex.add-to-cart-button": "0.x",
     "vtex.product-price": "1.x",
     "vtex.store-icons": "0.x",
-    "vtex.product-list": "0.x"
+    "vtex.product-list": "0.x",
+    "hiringcoders2021.customcomponents": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
