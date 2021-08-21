@@ -6,3 +6,9 @@
 {
     position: relative;
 }
+
+/*Estilização do footer*/
+.flexRowContent--footer
+{
+    justify-content: center;
+}
