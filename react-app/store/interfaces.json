@@ -1,5 +1,8 @@
 {
-    "hello-world": {
-        "component": "Greeting"
+    "footer-icons": {
+        "component": "FooterIcons"
+    },
+    "form-leads": {
+        "component": "Form"
     }
 }
