@@ -1,0 +1,72 @@
+.footerIconsContainer
+{
+    max-width: 50vw;
+    width: max-content!important;
+    color: white;
+    justify-content: space-between;
+    margin-left: -1rem;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+.footerIconsChildren
+{
+    margin-left: 3rem;
+}
+.footerIcons
+{
+    width: 1.375rem;
+    fill: white;
+}
+.footerIconsImageContainer
+{
+    margin-bottom: .375rem;
+}
+
+/*Estilo do form de leads*/
+.formContainer
+{
+    width: 50vw;
+    margin: 0 auto;
+}
+.formTitle
+{
+    color: gray;
+    text-align: center;
+    text-transform: uppercase;
+}
+.formLabel
+{
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    width: 50%;
+    margin: 0 auto .375rem auto;
+}
+.formInputs
+{
+    width: 50%;
+    height: 2.375rem;
+    padding: 0 .875rem;
+    border: 1px solid #59ff00;
+    border-radius: 5px;
+    background: transparent;
+    display: block;
+    outline: none;
+    color: white;
+    box-sizing: border-box;
+    margin: 0 auto 1rem auto;
+}
+
+.formButton
+{
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    padding: .775rem;
+    text-transform: uppercase;
+    color: white;
+    outline: none;
+    background: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
