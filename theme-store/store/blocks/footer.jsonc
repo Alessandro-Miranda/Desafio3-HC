@@ -7,9 +7,20 @@
     },
     "footer-layout.desktop": {
         "children": [
-            "login#footer",
-            "hello-world"
+            "flex-layout.row#footer"
         ]
+    },
+    "flex-layout.row#footer": {
+        "children": [
+            "login#footer",
+            "footer-icons"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "horizontalAlign": "center",
+            "fullWidth": true,
+            "blockClass": "footer"
+        }
     },
     "footer-layout.mobile": {
         "children": [
